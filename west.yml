@@ -21,6 +21,8 @@ manifest:
     - name: ncs
       url-base: https://github.com/nrfconnect
     # Third-party repository sources:
+    - name: ncs-midi
+      url-base: https://github.com/stentsoe
     - name: zephyrproject
       url-base: https://github.com/zephyrproject-rtos
     - name: throwtheswitch
@@ -58,8 +60,9 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/introduction/index.html
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
-      repo-path: sdk-zephyr
-      revision: c7094146b5b47fd4da05ed773e0128e2e6a634e1
+      remote: ncs-midi
+      repo-path: sdk-zephyr-midi
+      revision: 2c8ca90f58d1b166d7962ef34ce972c3662aa0ed
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
