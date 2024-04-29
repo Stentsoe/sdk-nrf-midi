@@ -62,7 +62,7 @@ manifest:
     - name: zephyr
       remote: ncs-midi
       repo-path: sdk-zephyr-midi
-      revision: 0882956da97d4a8942854bf14512c8a96d2ea5a1
+      revision: 4db2592854033310ec8c346cdc6aca90720b4db4
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
